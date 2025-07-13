@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="biblio.js"></script>
+    <link rel="stylesheet" href="inscri.css">
+</head>
+<body>
+    <form action="" method="post" onsubmit="return verif1()">
+        <fieldset>
+            <legend>Inscription du client</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Nom:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nom" id="nom">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Prénom:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="pre" id="pre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Telephone:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="numb" name="numb">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Adresse:</label>
+                    </td>
+                    <td>
+                        <textarea name="adr" id="adr"></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="">Mot de passe</label>
+                    </td>
+                    <td>
+                        <input type="password" name="mp" id="mp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Confimation du mot de passe:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="cp" id="cp">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Annuler">
+                        <input type="submit" value="Valider">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

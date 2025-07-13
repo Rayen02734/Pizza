@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+body {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 16px;
+}
+
+section iframe {
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 0 10px #eee;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 10px;
+  }
+  section {
+    height: 50vh;
+    margin-bottom: 20px;
+  }
+  section iframe {
+    height: 100%;
+  }
+}

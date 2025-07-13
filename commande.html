@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="commande.css">
+    <script src="biblio.js"></script>
+</head>
+<body>
+    <form action="" method="post" onsubmit="return verif2()">
+        <fieldset>
+            <legend>Commande de Pizza</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Type de Pizza</label>
+                    </td>
+                    <td>
+                        <select name="s" id="s">
+                            <option value="">Choisir une pizza</option>
+                            <option value="Fm">Fruit de Mer</option>
+                            <option value="Ma">Margherita</option>
+                            <option value="Na">Napolitaine</option>
+                            <option value="Ne">Neptune</option>
+                            <option value="R">Royale</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">Quantité:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="qua" id="qua">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Tel:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="tel" id="tel">
+                    </td>
+                    <td>
+                        <label for="">Mot de Passe:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="mpa" id="mpa">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Annuler">
+                    </td>
+                    <td>
+                        <input type="submit" value="Commander">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
